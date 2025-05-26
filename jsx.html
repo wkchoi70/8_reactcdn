@@ -7,16 +7,20 @@
   </head>
   <body>
 
-   <div id="jsx"></div>
-     <script type="text/babel">
-     function Car(props){
-     return <h1 className="my-3">I am a {props.brand} !</h1>
-     }
-     cont myElement = <Car brand="hyun"/>;
-       const container = document.getElementById('jsx');
-       const root = ReactDOM.createRoot(container);
-       root.render(myElement);
-     </script>>
+<div id="jsx"></div>
+<script type="text/babel">
+  function Car(props){
+    return <h1 className="my-3">I am a {props.brand} !</h1>
+  }
+const myElement = <Car brand="hyun"/>;
+const container = document.getElementById('jsx');
+const root = ReactDOM.createRoot(container);
+root.render(myElement);
+</script>
+
+
+
+    
 
   </body>
 </html>
